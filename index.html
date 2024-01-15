@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>File Sharing Website</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles.css">
+        <!-- The next 3 lines link to a custom font, might change it later -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id="ScrollTop">
+            <h1>Welcome to My File Sharing Website!</h1>
+                <!-- Currently unsure if this image needs a hyperlink
+                <a href="" target="_blank">
+                -->
+                    <img 
+                        src="./images/hello_unsplash.jpg"
+                        alt="Hello neon sign"
+                        width="550"
+                        height="200"
+                    />
+                <!--
+                </a>
+                -->
+        </header>
+        <main>
+            <section>
+                <h2>What is this website for?</h2>
+                <p>This is a personal website created to share files between friends and family members.</p>
+                <h2>How does it work?</h2>
+                <p>First, you will need to determine whether or not you are trying to upload a file or download a file.</p>
+                <h3>Uploading Files</h3>
+                <p>Select the "Upload" button <a href="#Upload">below</a> and then navigate on your device to the file you would like to share and select it.</p>
+                <h3>Downloading Files</h3>
+                <p>Select the file you would like on your device <a href="#Download">below</a> and then click the "Download" button.</p>
+            </section>
+            <section>
+                <h2 id="Upload">Uploading</h2>
+                <p>This will be an Upload button.</p>
+                <!-- Reminder to make this a working path at some point -->
+                <a href="uploader.html" target="_blank">
+                    <img 
+                        src="./images/upload_button.jpg"
+                        alt="Upload button"
+                        width="175"
+                        height="175"
+                    />
+                </a>
+            </section>
+            <section>
+                <h2 id="Download">Downloading</h2>
+                <p>Select the desired file below.</p>
+                <h3>Uploaded files available for download:</h3>
+                <!-- Could possibly use hyperlinks here, not sure how to handle the "downloads" section yet -->
+                    <ul>
+                        <li>New Year's Celebration.mp4</li>
+                        <li>Recent Birthday Pics.jpg</li>
+                        <li>Group Photo.jpg</li>
+                    </ul>
+            </section>
+        </main>
+        <footer>
+            <p>Made by <a href="https://github.com/Bennett-Christian" target="_blank">Christian</a> :)</p>
+            <a href="#ScrollTop">Scroll to Top</a>
+        </footer>
+    </body>
+</html>
