@@ -20,7 +20,11 @@ a:hover {
 abbr {
 	border: 0 none;
 }
+.preamble title {
+	font-weight: bold;
+	color: #777;
 
+}
 .page-wrapper {
 	margin: 0;
 	padding: 0;
@@ -40,7 +44,7 @@ abbr {
 	padding: 0;
 	width: 303px;
 }	
-h1 {
+.preamble h1 {
 	margin: 0;
 	padding: 0;
 	width: 303px;
