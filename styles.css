@@ -180,29 +180,29 @@ abbr {
 
 
 /*Sidebar Design*/
-.sidebar .Extra-link a {
+.sidebar .design-Extra-Links a {
 	text-decoration: underline;
 	color: #766;
 	display: block;
 }
-.sidebar .Extra-link a:visited {
+.sidebar .design-Extra-Links a:visited {
 	text-decoration: underline;
 	color: #aaa;
 }
-.sidebar .Extra-link a:hover {
+.sidebar .design-Extra-Links a:hover {
 	text-decoration: underline;
 	color: #e60;
 }
-.sidebar .Extra-link a.Extra-link {
+.sidebar .design-Extra-Links a.Extra-link {
 	display: inline;
 	text-decoration: none;
 	color: #888;
 }
-.sidebar .Extra-link a.Extra-link:visited {
+.sidebar .design-Extra-Links a.Extra-link:visited {
 	text-decoration: none;
 	color: #999;
 }
-.sidebar .Extra-link a.Extra-link:hover {
+.sidebar .design-Extra-Links a.Extra-link:hover {
 	text-decoration: none;
 	color: #e60;
 }
