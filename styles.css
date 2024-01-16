@@ -53,7 +53,7 @@ h1 {
 }
 .preamble h2 {
 	margin: 0 0 9px 0;
-	padding: 30px;
+	padding: 0px;
 	width: 303px;
 	height: 37px;
 	background: url(h2.gif) no-repeat transparent;
@@ -65,7 +65,7 @@ h1 {
 
 .preamble h3 {
 	margin: 5px 0 0;
-	padding: 30px;
+	padding: 0px;
 	width: 303px;
 	height: 36px;
 	background: url(the_road.jpg) no-repeat transparent;
@@ -213,7 +213,7 @@ footer {
 	height: 23px;
 }
 footer a {
-	color: #fff;
+	color: #655;
 	vertical-align: middle;
 }
 
