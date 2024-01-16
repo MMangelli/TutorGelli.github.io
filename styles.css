@@ -179,30 +179,30 @@ abbr {
 }
 
 
-
-.sidebar .design-selection a {
+/*Sidebar Design*/
+.sidebar .Extra-link a {
 	text-decoration: underline;
 	color: #766;
 	display: block;
 }
-.sidebar .design-selection a:visited {
+.sidebar .Extra-link a:visited {
 	text-decoration: underline;
 	color: #aaa;
 }
-.sidebar .design-selection a:hover {
+.sidebar .Extra-link a:hover {
 	text-decoration: underline;
 	color: #e60;
 }
-.sidebar .design-selection a.designer-name {
+.sidebar .Extra-link a.Extra-link {
 	display: inline;
 	text-decoration: none;
 	color: #888;
 }
-.sidebar .design-selection a.designer-name:visited {
+.sidebar .Extra-link a.Extra-link:visited {
 	text-decoration: none;
 	color: #999;
 }
-.sidebar .design-selection a.designer-name:hover {
+.sidebar .Extra-link a.Extra-link:hover {
 	text-decoration: none;
 	color: #e60;
 }
