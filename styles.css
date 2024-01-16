@@ -1,0 +1,33 @@
+h1{
+    color: #0D1B2A;
+    font-size: 30px;
+}
+
+h2 {
+    color: #1B263B;
+    font-size: 26px;
+}
+
+h3 {
+    color: #1B263B;
+    font-size: 24px;
+}
+
+body {
+    background-color: #E0E1DD;
+    font-family: 'Poppins', 'Times New Roman', Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #415A77;
+    font-size: 22px;
+}
+
+li {
+    color: #778DA9;
+    font-size: 21px;
+}
+
+a {
+    color: #778DA9;
+}
