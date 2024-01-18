@@ -11,6 +11,7 @@ a {
 	text-decoration: none;
 	font-weight: bold;
 	color: #655;
+	font-size: small
 }
 a:hover {
 	text-decoration: none;
@@ -57,14 +58,14 @@ abbr {
 }
 .preamble h2 {
 	margin: 0 0 9px 0;
-	padding: 0px;
+	padding: 20px;
 	width: 303px;
-	height: 37px;
+	height: 5px;
 	background: url(h2.gif) no-repeat transparent;
 
-	text-indent: 100%;
+	text-indent: 15%;
 	white-space: nowrap;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .preamble h3 {
@@ -83,7 +84,7 @@ abbr {
 	position: absolute;
 	top: 70px;
 	left: 303px;
-	width: 320px;
+	width: 500px;
 	margin: 0;
 	padding: 0;
 	background: url(support_bg.gif) repeat-y top right transparent;
@@ -93,15 +94,23 @@ abbr {
 	padding: 0 40px 10px 0px;
 }
 .supporting h3 {
-	text-indent: 100%;
+	text-indent: 5%;
 	white-space: nowrap;
 	overflow: hidden;
 }
 
-.participation h3 {
-	margin: 0 40px 5px 0px;
+.uploadingfiles h3 {
+	margin: 0 30px 5px 0px;
 	padding: 0;
-	height: 34px;
+	height: 25px;
+	background: url(parti.gif) no-repeat transparent;
+	border-bottom: 1px solid #ccc;
+}
+
+.supportedfiles h3 {
+	margin: 0 30px 5px 0px;
+	padding: 0;
+	height: 25px;
 	background: url(parti.gif) no-repeat transparent;
 	border-bottom: 1px solid #ccc;
 }
@@ -149,7 +158,7 @@ abbr {
 .sidebar {
 	position: absolute;
 	top: 130px;
-	left: 608px;
+	left: 808px;
 	margin: 0;
 	padding: 0;
 	width: 200px;
